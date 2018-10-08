@@ -39,6 +39,8 @@ class Route{
     console.log(verticalBlocks);
        return horizontalBlocks + verticalBlocks;
     }
+    
+    
     estimatedTime(peak){
       if (peak){
         return this.blocksTravelled()/2;
